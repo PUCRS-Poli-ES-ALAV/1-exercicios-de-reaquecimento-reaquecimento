@@ -1,0 +1,15 @@
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/bin/Debug/net10.0/Reaquecimento
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/bin/Debug/net10.0/Reaquecimento.deps.json
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/bin/Debug/net10.0/Reaquecimento.runtimeconfig.json
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/bin/Debug/net10.0/Reaquecimento.dll
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/bin/Debug/net10.0/Reaquecimento.pdb
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/Reaquecimento.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/Reaquecimento.AssemblyInfoInputs.cache
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/Reaquecimento.AssemblyInfo.cs
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/Reaquecimento.csproj.CoreCompileInputs.cache
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/Reaquecimento.sourcelink.json
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/Reaquecimento.dll
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/refint/Reaquecimento.dll
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/Reaquecimento.pdb
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/Reaquecimento.genruntimeconfig.cache
+/Users/pedroklein/Code/Class/1-exercicios-de-reaquecimento-reaquecimento/Reaquecimento/obj/Debug/net10.0/ref/Reaquecimento.dll
