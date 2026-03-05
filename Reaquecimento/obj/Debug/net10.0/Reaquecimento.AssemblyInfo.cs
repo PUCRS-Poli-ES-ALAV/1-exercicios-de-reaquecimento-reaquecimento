@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reaquecimento")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aa80f9ae5e12f92706807cc1eb13e9506c81b6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2888c372c4b1c7ceadddb414940df4ce41de078")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reaquecimento")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reaquecimento")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            var result = Possibilities(3);
+            var result = GenericFiboncci(3, 4, 3);
             Console.WriteLine("Result:");
-            Console.WriteLine(string.Join(", ", result));
+            Console.WriteLine(result);
         }
         static int Multiply(int number, int multiplier)
         {
@@ -53,10 +53,6 @@
             if (str.First() != str.Last()) return false;
             return IsPalindrome(str.Substring(1, str.Length - 2));
         }
-        // 0 -> []
-        // 1 -> [A]
-        // 2 -> [AB, BA]
-        // 3 -> [ABC, ACB, BAC, BCA, CAB, CBA]
         static string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         static List<string> Possibilities(int num, int option = 0)
         {
@@ -64,16 +60,31 @@
             var options = Factorial(num);
             if (options == option) return [];
             var usableAlphabet = alphabet[..num];
-            return Possibilities(num, option + 1).Append(OptionOrder(option, usableAlphabet)).ToList();
+            var possibles = Possibilities(num, option + 1);
+            possibles.Insert(0, OptionOrder(option, usableAlphabet));
+            return possibles;
         }
-        static string OptionOrder(int option, string segment)
+        static string OptionOrder(int option, string segment)//Auxílio de IA para o método
         {
-            return segment;
+            if (segment.Length == 1)
+                return segment;
+            var factorial = Factorial(segment.Length - 1);
+            var index = option / factorial;
+            var remainder = option % factorial;
+            var chosen = segment[index];
+            var remaining = segment.Remove(index, 1);
+            return chosen + OptionOrder(remainder, remaining);
         }
         static int Factorial(int num)
         {
             if (num == 1) return 1;
             return Factorial(num - 1) * num;
+        }
+        static int GenericFiboncci(int f0, int f1, int seq)
+        {
+            if (seq == 0) return f0;
+            if (seq == 1) return f1;
+            return GenericFiboncci(f0, f1, seq - 1) + GenericFiboncci(f0, f1, seq - 2);
         }
     }
 }
